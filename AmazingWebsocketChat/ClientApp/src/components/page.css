@@ -1,0 +1,89 @@
+﻿.page {
+    background-color: #4ba586;
+    padding: 10px; /* Add padding */
+    border: 1px solid #000000; /* Add border */
+    height: 70vh;
+    overflow: auto;
+}
+
+.page-outer {
+    background-color: #9df20a;
+    padding: 10px; /* Add padding */
+    border: 1px solid #000000; /* Add border */
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: #d4fac5;
+}
+
+.item {
+    border: 1px solid #000000; /* Border style */
+    padding: 10px; /* Padding around the item */
+    margin-bottom: 15px; /* Spacing between items */
+    border-radius: 12px; /* Rounded corners */
+    background-color: #55f27f;
+    
+
+}
+
+.blue-text {
+    color: blue;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.blue-text-heading {
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.red-text {
+    color: red;
+    
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+}
+
+/*.form-input-message {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    width: 300%;
+    height: 20vh;
+    vertical-align: top;
+}*/
+
+.form-input-message {
+    width: 300%;
+    height: 10vh;
+    padding: 10px;
+    border-radius: 12px;
+    line-height: 10; /* Set line-height to 1 */
+    text-align: left; /* Align text to the left */
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
+.form-input-name {
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.submit-button {
+    text-align: center;
+    width: 100%; /* Adjust the width value as needed */
+    background-color: #113ff5;
+    color: #98f542;
+    height: 50px;
+    border-radius: 12px;
+}
